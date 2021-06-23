@@ -9,8 +9,7 @@ setup(
     author_email='sheryl.avendano@udea.edu.co',
     license='BSD 2-clause',
     packages=['src'],
-    install_requires=['numpy', 'pandas',
-                      'inspect', 'IPython'        
+    install_requires=['numpy', 'pandas',        
     ],
 
     classifiers=[
