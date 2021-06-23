@@ -6,7 +6,7 @@ from inspect import isfunction
 from testpyColab.student import Student
 import testpyColab.raw_data as raw_data
 
-import displayhtml as dhtml
+import testpyColab.displayhtml as dhtml
 
 MSG_ERROR_INIT = "Check exercise initialization. An error occurred: {}"
 MSG_ERROR_READ = "Data could not be read. An error occurred: {}"
