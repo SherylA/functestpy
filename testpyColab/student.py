@@ -8,5 +8,5 @@ class Student():
         self.id = id
 
     def check_info(self):    
-        msg = f'¡Bienvenido estudiante {self.id}! El grupo ingresado ha sido {self.group}'
+        msg = f'¡Bienvenido estudiante {self.id}! El grupo ingresado ha sido el # {self.group}'
         display(HTML(dhtml.titleHTML(msg,level=2)))
