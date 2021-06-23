@@ -1,5 +1,5 @@
 from IPython.core.display import display, HTML
-import displayhtml as dhtml
+import testpyColab.displayhtml as dhtml
 
 class Student():
     def __init__(self, group=1, id='sin_id'):

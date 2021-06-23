@@ -2,8 +2,9 @@ from IPython.core.display import HTML, display
 import pandas as pd
 import numpy as np
 from inspect import isfunction
-from student import Student
-import raw_data 
+
+from testpyColab.student import Student
+import testpyColab.raw_data as raw_data
 
 import displayhtml as dhtml
 
