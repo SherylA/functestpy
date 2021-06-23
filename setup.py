@@ -8,7 +8,7 @@ setup(
     author='Sheryl Avenaño',
     author_email='sheryl.avendano@udea.edu.co',
     license='BSD 2-clause',
-    packages=['src'],
+    packages=['testpyColab'],
     install_requires=['numpy', 'pandas',        
     ],
 
