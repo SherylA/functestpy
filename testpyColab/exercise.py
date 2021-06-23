@@ -138,13 +138,14 @@ class ExerciseFuncSimple(Exercise):
         except Exception as err:
             self.err['intercept'] = err
             self.failed = True
-    
-    def set_tests_func(self):
-        return super().set_tests([self._check_function,self._check_slope,self._check_intercept])
 
-    def check_exercise_func(self, func):
-        self.set_tests_func()
+    def check_exercise(self, func):
+        self.set_tests([self._check_function,self._check_slope,self._check_intercept])
         return super().check_exercise(func)
+    
+    def display_check_exercise(self, func):
+        self.check_exercise(func)
+        self.display_result()
 
 class ExerciseFuncComplex():
     pass
