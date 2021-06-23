@@ -41,6 +41,7 @@ class Exercise(object):
 
         try:
             self.root_data = raw_data.ROOT_FOR_EXERCISES[id_exercise]
+            self.student.check_info()
             self.group = self.student.group
             self.number_tests = len(self.names_tests)
             self.results_tests = ['Skipped'] * self.number_tests
